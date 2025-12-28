@@ -1,0 +1,37 @@
+﻿@using Furni101.Models
+@using System.Reflection.Metadata
+@model BLog
+<form class="form-box" method="post"
+      asp-area="Admin"
+      asp-controller="BLog"
+      asp-action="Create">
+    <div>
+        <label asp-for="Title">Title</label>
+        <input asp-for="Title" placeholder="Title" />
+    </div>
+    <div>
+        <label asp-for="Text">Text</label>
+        <input asp-for="Text" placeholder="Text" />
+    </div>
+    <div>
+        <label asp-for="ImageUrl">ImageUrl</label>
+        <input asp-for="ImageUrl" placeholder="ImageUrl" />
+    </div>
+    <div>
+        <label asp-for="EmployeeId">Employee Id</label>
+        <select class="form-control" asp-for="EmployeeId">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+   
+    <div class="full">
+        <button type="submit">Əlavə et</button>
+    </div>
+
+</form>
+
+

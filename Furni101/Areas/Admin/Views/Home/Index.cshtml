@@ -1,0 +1,158 @@
+﻿@using Furni101.Models
+@model List<Employee>
+
+
+@{
+    ViewData["Title"] = "Admin Panel";
+    Layout = null; // test üçün, layout varsa silə bilərsən
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* BODY & CONTAINER */
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 1000px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        /* FORM */
+        .form-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+            .form-box div {
+                flex: 1 1 45%;
+            }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+            input:focus, select:focus {
+                border-color: #667eea;
+                outline: none;
+                box-shadow: 0 0 5px rgba(102,126,234,0.5);
+            }
+
+        .form-box .full {
+            flex: 1 1 100%;
+            text-align: center;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            button:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 15px 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #667eea;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #f7f7f7;
+        }
+
+        tr:hover {
+            background: #dbeafe;
+        }
+
+  
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>İstifadəçi Məlumatları</h2>
+
+
+
+
+        <table>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>lastName</th>
+                <th>Position</th>
+            </tr>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                    <td>@employee.Position</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+</body>
+</html>
