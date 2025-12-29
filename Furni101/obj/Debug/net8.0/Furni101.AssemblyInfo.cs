@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Furni101")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5234fb00a79acf0c214e6b967d03dd34943e7ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Furni101")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Furni101")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

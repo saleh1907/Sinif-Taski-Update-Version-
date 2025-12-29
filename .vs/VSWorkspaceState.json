@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Furni101",
-    "\\Furni101\\Areas",
-    "\\Furni101\\Areas\\Admin",
-    "\\Furni101\\Areas\\Admin\\Views",
-    "\\Furni101\\Migrations",
-    "\\Furni101\\Models",
-    "\\Furni101\\Views"
+    ""
   ],
-  "SelectedNode": "\\Furni101",
+  "SelectedNode": "\\Furni101.sln",
   "PreviewInSolutionExplorer": false
 }

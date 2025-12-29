@@ -120,46 +120,46 @@ namespace Furni101.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4479),
+                            CreateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5250),
                             Description = "Backend developer",
                             FirstName = "Ahmet",
                             ImageUrl = "person_1.jpg",
                             LastName = "Yılmaz",
                             Position = "Software Developer",
-                            UpdateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4492)
+                            UpdateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5261)
                         },
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4494),
+                            CreateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5264),
                             Description = "Frontend designer",
                             FirstName = "Ayşe",
                             ImageUrl = "person_2.jpg",
                             LastName = "Kaya",
                             Position = "UI/UX Designer",
-                            UpdateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4495)
+                            UpdateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5265)
                         },
                         new
                         {
                             Id = 3,
-                            CreateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4496),
+                            CreateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5266),
                             Description = "Team lead",
                             FirstName = "Mehmet",
                             ImageUrl = "person_3.jpg",
                             LastName = "Demir",
                             Position = "Project Manager",
-                            UpdateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4496)
+                            UpdateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5267)
                         },
                         new
                         {
                             Id = 4,
-                            CreateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4497),
+                            CreateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5268),
                             Description = "Testing specialist",
                             FirstName = "Elif",
                             ImageUrl = "person_4.jpg",
                             LastName = "Çelik",
                             Position = "QA Engineer",
-                            UpdateDate = new DateTime(2025, 12, 29, 2, 0, 51, 502, DateTimeKind.Local).AddTicks(4498)
+                            UpdateDate = new DateTime(2025, 12, 29, 8, 17, 13, 502, DateTimeKind.Local).AddTicks(5268)
                         });
                 });
 

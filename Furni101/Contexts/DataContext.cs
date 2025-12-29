@@ -13,6 +13,7 @@ namespace Furni101.Contexts
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<BlogTag>blogTags { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -189,5 +190,9 @@ namespace Furni101.Contexts
         }
 
 
+    }
+
+    public class BlogTag
+    {
     }
 }
